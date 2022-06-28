@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './Components/Pages/Home/Home';
+import Details from './Components/Details/Details';
 import TopBar from './Components/TopBar/TopBar';
 
 function App() {
   return (
     <>
     <TopBar/>
-    <Home/>
+    <Details/>
     </>
   );
 }
