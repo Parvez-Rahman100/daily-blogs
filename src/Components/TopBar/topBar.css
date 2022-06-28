@@ -1,0 +1,52 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Bitter', serif;
+}
+.topLeft,.topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topIcons{
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.topCenter{
+    flex:6
+}
+.topImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.toplist{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.topListItems{
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    color: #666;
+}
+.topListItems:hover{
+    color: orangered;
+    transition: ease-in-out 1s;
+}
+.searchIcon{
+    cursor: pointer;
+    margin-left: 15px;
+}
