@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "img":"https://i.ibb.co/dW6345n/blog1.png",
+        "blogDate":"2 hr ago"
+    },
+    {
+        "id":2,
+        "img":"https://i.ibb.co/r05k3th/blog2.jpg",
+        "blogDate":"3 hr ago"
+    },
+    {
+        "id":3,
+        "img":"https://i.ibb.co/mznGjxK/blog3.jpg",
+        "blogDate":"1 hr ago"
+    },
+    {
+        "id":4,
+        "img":"https://i.ibb.co/zQ2FB80/blog4.jpg",
+        "blogDate":"54 minutes ago"
+    }
+]

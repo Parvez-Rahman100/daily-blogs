@@ -1,0 +1,39 @@
+.blog{
+    width: 400px;
+    margin: 40px 25px 40px 25px;
+}
+.blogImg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.blogInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogCatagory{
+    margin: 10px 20px;
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.blogCatagory:hover{
+    color: orangered;
+    transition: ease-in-out 0.5s;
+}
+.blogTitle{
+    margin-top: 10px;
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+}
+.blogDate{
+    color: #999;
+    font-style: italic;
+    font-family: 'Lora', serif;
+    margin: 20px 0;
+}

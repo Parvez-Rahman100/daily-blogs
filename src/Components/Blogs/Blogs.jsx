@@ -1,10 +1,17 @@
 import React from 'react';
+import blogs from '../../Data/blogs.json';
+import Blog from '../Blog/Blog';
 import './blogs.css';
 
 const Blogs = () => {
     return (
         <div className='blogs'>
-            <h1>blogs</h1>
+            {
+                blogs.map(blog=><Blog
+                key={blog.id}
+                blog={blog}
+                ></Blog>)
+            }
         </div>
     );
 };
